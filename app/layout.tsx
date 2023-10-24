@@ -11,8 +11,12 @@ import { QueryProvider } from "@/components/providers/query-provider";
 const bhai = Baloo_Bhai_2({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Realtime chat app",
-  description: "This application shall be used for real time chatting.",
+  title: "Converso",
+  description:
+    "This application shall be used for real time chatting and video calling.",
+  manifest: "/manifest.json",
+  icons: { apple: "/icon-192x192.png" },
+  themeColor: "#1E1F22",
 };
 
 export default function RootLayout({
